@@ -59,5 +59,8 @@ void ponto_print (PONTO *p) {
 }
 
 float distancia (PONTO *p1, PONTO *p2) {
-    return sqrt(p1->x * p2->x + p1->y * p2->y);
+    // Faz mais sentido adicionar a função distancia aqui pois tem uma boa chance de
+    // que essa função precise ser utilizada em uma aplicação que somente usa a TAD 
+    // de ponto, já que não é necessário nenhum círculo para rodar a função.
+    return sqrt((p1->x - p2->x)*(p1->x - p2->x) + (p1->y - p2->y)*(p1->y - p2->y));
 }

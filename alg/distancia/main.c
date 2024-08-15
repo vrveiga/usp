@@ -23,7 +23,7 @@ int main (void){
 
       //diferença da (distancia do ponto com o centro do circulo) com o tamanho do raio
       float resultado = distancia(circulo_get_ponto(c), ponto_aux) - circulo_get_raio(c);
-
+      
       if (resultado < 0)
           printf("dentro\n");
       else if (resultado > 0)
