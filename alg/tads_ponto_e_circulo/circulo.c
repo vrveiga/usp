@@ -2,6 +2,7 @@
 #include <stdbool.h>
 #include <stdlib.h>
 #include "circulo.h"
+#include "ponto.h"
 
 struct circulo_ {
     PONTO *p;
@@ -49,7 +50,10 @@ float circulo_get_raio (CIRCULO *c) {
 
 void circulo_apagar (CIRCULO **circulo) {
     if (*circulo != NULL) {
+        ponto_apagar(&((*circulo)->p));
         free(*circulo);
         *circulo = NULL;
+    } else {
+        exit(-1);
     }
 }

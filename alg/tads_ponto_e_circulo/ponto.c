@@ -21,6 +21,8 @@ void ponto_apagar (PONTO **p) {
     if (*p != NULL) {
         free(*p);
         *p = NULL;
+    } else {
+        exit(-1);
     }
 }
 
@@ -50,5 +52,7 @@ float ponto_get_y (PONTO *p) {
 void ponto_print (PONTO *p) {
     if (p != NULL) {
         printf("(%.1f, %.1f)", p->x, p->y);
+    } else {
+        exit(-1);
     }
 }
