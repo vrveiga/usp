@@ -38,7 +38,7 @@ int main() {
     int base; char str[80];
     scanf("%d %s", &base, str);
 
-    printf("%f", strtofloat(str, base));
+    printf("%f\n", strtofloat(str, base));
 
     return 0;
 }
