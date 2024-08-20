@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 int main() {
     char str1[80], str2[80];
@@ -17,7 +18,8 @@ int main() {
     }
     strf[j] = '\0';
 
-    printf("%s\n", strf);
+    printf("String Final: %s\n", strf);
+    printf("Tamanho: %ld\n", strlen(strf));
     
     return 0;
 }
