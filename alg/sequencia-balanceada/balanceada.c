@@ -1,8 +1,9 @@
 #include "Pilha.h"
+#include <stdio.h>
 
 bool balanceada(char *sequencia) {
     PILHA* pilha = pilha_criar();
-    int ret = true;
+    bool ret = true;
     for (int i = 0; sequencia[i] != '\0'; i++) {
         char ch = sequencia[i];
         
@@ -11,7 +12,7 @@ bool balanceada(char *sequencia) {
                 ret = false;
                 break;
             }
-            ITEM *it = item_criar(ch);
+            ITEM *it = item_criar(1, sequencia + i);
             pilha_empilhar(pilha, it);
         } else {
             if (pilha_vazia(pilha)){
@@ -19,9 +20,9 @@ bool balanceada(char *sequencia) {
                 break;
             }
             ITEM *topo = pilha_topo(pilha);
-
-            if (item_get_chave(topo) + 1 == ch || 
-                item_get_chave(topo) + 2 == ch) {
+            char *dado = item_get_dados(topo);
+            if ((*dado) + 1 == ch || 
+                (*dado) + 2 == ch) {
                 pilha_desempilhar(pilha);
                 item_apagar(&topo);
             } else {

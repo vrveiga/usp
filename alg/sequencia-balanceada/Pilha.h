@@ -4,7 +4,7 @@
   #include "item.h"
   #include <stdbool.h>
 
-  #define TAM 150
+  #define TAM 1005
 
   typedef struct pilha PILHA;
 
@@ -16,7 +16,6 @@
   ITEM* pilha_topo(PILHA* pilha);
   bool pilha_empilhar(PILHA* pilha, ITEM* item);
   ITEM* pilha_desempilhar(PILHA* pilha);
-  void pilha_print(PILHA* p);
   bool balanceada(char *sequencia);
 
 #endif 
