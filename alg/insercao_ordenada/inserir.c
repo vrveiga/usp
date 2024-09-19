@@ -21,17 +21,17 @@ struct lista_{
 #endif
 
 bool lista_inserir(LISTA *lista, ITEM *item) {
-    if (lista_cheia(lista) || item == NULL) {
+    if (lista == NULL || lista->tamanho == TAM_MAX || item == NULL) {
         return false;
     } 
 
     int i;
     int* aux;
-    int* new = item_get_dados(item);
+    int* novo = item_get_dados(item);
 
     for (i = lista->inicio; i < lista->fim; i++) {
         aux = item_get_dados(lista->lista[i]);
-        if (*aux > *new) break;
+        if (*aux > *novo) break;
     }
 
     for (int j = lista->fim; j >= i; j--) {
