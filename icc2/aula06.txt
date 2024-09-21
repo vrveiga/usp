@@ -1,0 +1,53 @@
+Slide 35:
+
+Temos:
+f(x) <= c1*g(x)
+g(x) <= c2*h(x)
+
+Podemos substituir a segunda equação na primeira e obter:
+f(x) <= c1*c2*h(x) =>
+f(x) <= c3*h(x) =>
+f(x) = O(h(x)).
+
+
+Slide 37:
+
+x^4 - 23x^3 + 12x^2 + 15x - 21 = Θ(x^4)
+
+x^4 - 23x^3 + 12x^2 + 15x - 21 = O(x^4):
+x^4 - 23x^3 + 12x^2 + 15x - 21 <= C1.x^4
+
+Dividindo ambos os lados por x^4:
+1 - 23/x + 12/x^2 + 15/x^3 - 21/x^4 <= C1
+
+Para valores muito grandes de x (x -> ∞):
+C1 >= 1
+
+x^4 - 23x^3 + 12x^2 + 15x - 21 = Ω(x^4):
+x^4 - 23x^3 + 12x^2 + 15x - 21 >= C2.x^4
+
+Dividindo ambos os lados por x^4:
+1 - 23/x + 12/x^2 + 15/x^3 - 21/x^4 >= C2
+
+Para valores muito grandes de x (x -> ∞):
+C2 <= 1
+
+Então, como C1 e C2 existem, x^4 - 23x^3 + 12x^2 + 15x - 21 é O(x^4) e Ω(x^4), logo, é Θ(x^4)
+
+
+Slide 38:
+
+Temos:
+T(n) = Θ(f(n)) <=> T(n) = O(f(n)) = Ω(f(n)).
+
+Pela definição de O(f(n)):
+max{f(n),g(n)} <= 1 * (f(n) + g(n)) =>
+max{f(n),g(n)} = O(f(n) + g(n)).
+
+Pela definição de Ω(f(n)):
+max{f(n),g(n)} >= 1/2 * (f(n) + g(n)) =>
+max{f(n),g(n)} = Ω(f(n) + g(n)).
+
+Logo, podemos afirmar que:
+max{f(n),g(n)} = Ω(f(n) + g(n)) = O(f(n) = g(n)) =>
+max{f(n),g(n)} = Θ(f(n) + g(n)).
