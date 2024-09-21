@@ -23,22 +23,26 @@ struct lista_{
 bool lista_inserir(LISTA *lista, ITEM *item) {
     if (lista == NULL || lista->tamanho == TAM_MAX || item == NULL) {
         return false;
-    } 
-
-    int i;
-    int* aux;
-    int* novo = item_get_dados(item);
-
-    for (i = lista->inicio; i < lista->fim; i++) {
-        aux = item_get_dados(lista->lista[i]);
-        if (*aux > *novo) break;
     }
 
-    for (int j = lista->fim; j >= i; j--) {
-        lista->lista[j+1] = lista->lista[j]; 
+    int l = lista->inicio, r = lista->fim-1;
+    int idx = lista->fim;
+
+    while (l <= r) {
+        int m = (l+r)/2;
+        if (item_get_chave(item) < item_get_chave(lista->lista[m])) {
+            r = m-1;
+            idx = m;
+        } else {
+            l = m+1;
+        }
     }
 
-    lista->lista[i] = item;
+    for (int j = lista->fim-1; j >= idx; j--) {
+        lista->lista[j+1] = lista->lista[j];
+    }
+
+    lista->lista[idx] = item;
     lista->fim++;
     lista->tamanho++;
 
