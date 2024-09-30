@@ -1,0 +1,181 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'reseta'
+Slack : -6.422
+TNS   : -65.741
+
+Type  : Slow 1100mV 85C Model Setup 'dedinho'
+Slack : -4.083
+TNS   : -38.448
+
+Type  : Slow 1100mV 85C Model Setup 'relogio'
+Slack : -3.683
+TNS   : -59.359
+
+Type  : Slow 1100mV 85C Model Hold 'relogio'
+Slack : 0.425
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'dedinho'
+Slack : 1.094
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'reseta'
+Slack : 1.249
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'relogio'
+Slack : -2.629
+TNS   : -45.721
+
+Type  : Slow 1100mV 85C Model Removal 'relogio'
+Slack : 1.106
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'relogio'
+Slack : -0.538
+TNS   : -14.028
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'dedinho'
+Slack : -0.538
+TNS   : -9.585
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'reseta'
+Slack : -0.538
+TNS   : -8.654
+
+Type  : Slow 1100mV 0C Model Setup 'reseta'
+Slack : -6.344
+TNS   : -64.719
+
+Type  : Slow 1100mV 0C Model Setup 'dedinho'
+Slack : -4.040
+TNS   : -37.829
+
+Type  : Slow 1100mV 0C Model Setup 'relogio'
+Slack : -3.343
+TNS   : -54.675
+
+Type  : Slow 1100mV 0C Model Hold 'relogio'
+Slack : 0.426
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'dedinho'
+Slack : 0.981
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'reseta'
+Slack : 1.015
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'relogio'
+Slack : -2.402
+TNS   : -41.485
+
+Type  : Slow 1100mV 0C Model Removal 'relogio'
+Slack : 0.867
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'relogio'
+Slack : -0.538
+TNS   : -14.066
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'dedinho'
+Slack : -0.538
+TNS   : -9.298
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'reseta'
+Slack : -0.538
+TNS   : -8.922
+
+Type  : Fast 1100mV 85C Model Setup 'reseta'
+Slack : -3.787
+TNS   : -39.545
+
+Type  : Fast 1100mV 85C Model Setup 'relogio'
+Slack : -2.075
+TNS   : -29.012
+
+Type  : Fast 1100mV 85C Model Setup 'dedinho'
+Slack : -1.904
+TNS   : -18.249
+
+Type  : Fast 1100mV 85C Model Hold 'relogio'
+Slack : -0.006
+TNS   : -0.006
+
+Type  : Fast 1100mV 85C Model Hold 'dedinho'
+Slack : 0.159
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'reseta'
+Slack : 0.622
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'relogio'
+Slack : -1.507
+TNS   : -26.396
+
+Type  : Fast 1100mV 85C Model Removal 'relogio'
+Slack : 0.293
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'dedinho'
+Slack : -0.449
+TNS   : -6.073
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'reseta'
+Slack : -0.313
+TNS   : -3.120
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'relogio'
+Slack : -0.100
+TNS   : -1.783
+
+Type  : Fast 1100mV 0C Model Setup 'reseta'
+Slack : -3.435
+TNS   : -35.793
+
+Type  : Fast 1100mV 0C Model Setup 'relogio'
+Slack : -1.796
+TNS   : -25.630
+
+Type  : Fast 1100mV 0C Model Setup 'dedinho'
+Slack : -1.657
+TNS   : -15.790
+
+Type  : Fast 1100mV 0C Model Hold 'relogio'
+Slack : -0.062
+TNS   : -0.071
+
+Type  : Fast 1100mV 0C Model Hold 'dedinho'
+Slack : 0.114
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'reseta'
+Slack : 0.456
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'relogio'
+Slack : -1.296
+TNS   : -22.633
+
+Type  : Fast 1100mV 0C Model Removal 'relogio'
+Slack : 0.159
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'dedinho'
+Slack : -0.420
+TNS   : -5.328
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'reseta'
+Slack : -0.318
+TNS   : -3.174
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'relogio'
+Slack : -0.098
+TNS   : -1.759
+
+------------------------------------------------------------

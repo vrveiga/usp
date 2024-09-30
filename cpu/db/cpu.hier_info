@@ -1,0 +1,127 @@
+|rascunho
+a[0] <= display:inst6.o[0]
+a[1] <= display:inst6.o[1]
+a[2] <= display:inst6.o[2]
+a[3] <= display:inst6.o[3]
+a[4] <= display:inst6.o[4]
+a[5] <= display:inst6.o[5]
+a[6] <= display:inst6.o[6]
+relogio => debouncer:inst4.clk_fpga
+reseta => debouncer:inst4.rst_debouncer
+dedinho => inst8.IN0
+b[0] <= display:inst7.o[0]
+b[1] <= display:inst7.o[1]
+b[2] <= display:inst7.o[2]
+b[3] <= display:inst7.o[3]
+b[4] <= display:inst7.o[4]
+b[5] <= display:inst7.o[5]
+b[6] <= display:inst7.o[6]
+
+
+|rascunho|display:inst6
+o[0] <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+o[1] <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+o[2] <= inst20.DB_MAX_OUTPUT_PORT_TYPE
+o[3] <= inst51.DB_MAX_OUTPUT_PORT_TYPE
+o[4] <= inst31.DB_MAX_OUTPUT_PORT_TYPE
+o[5] <= inst53.DB_MAX_OUTPUT_PORT_TYPE
+o[6] <= inst44.DB_MAX_OUTPUT_PORT_TYPE
+b[0] => inst49.IN0
+b[1] => inst25.IN0
+b[2] => inst6.IN0
+b[3] => inst1.IN0
+
+
+|rascunho|contador:inst
+q[0] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+q[4] <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+q[5] <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+q[6] <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+q[7] <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+pr[0] => inst15.IN0
+pr[1] => inst18.IN0
+pr[2] => inst20.IN0
+pr[3] => inst22.IN0
+pr[4] => inst24.IN0
+pr[5] => inst26.IN0
+pr[6] => inst28.IN0
+pr[7] => inst30.IN0
+clr[0] => inst16.IN0
+clr[1] => inst17.IN0
+clr[2] => inst19.IN0
+clr[3] => inst21.IN0
+clr[4] => inst23.IN0
+clr[5] => inst25.IN0
+clr[6] => inst27.IN0
+clr[7] => inst29.IN0
+clk => inst7.CLK
+clk => inst6.CLK
+clk => inst.CLK
+clk => inst1.CLK
+clk => inst2.CLK
+clk => inst3.CLK
+clk => inst4.CLK
+clk => inst5.CLK
+
+
+|rascunho|debouncer:inst4
+clk_fpga => counter[0].CLK
+clk_fpga => counter[1].CLK
+clk_fpga => counter[2].CLK
+clk_fpga => counter[3].CLK
+clk_fpga => counter[4].CLK
+clk_fpga => counter[5].CLK
+clk_fpga => counter[6].CLK
+clk_fpga => counter[7].CLK
+clk_fpga => counter[8].CLK
+clk_fpga => counter[9].CLK
+clk_fpga => counter[10].CLK
+clk_fpga => counter[11].CLK
+clk_fpga => counter[12].CLK
+clk_fpga => counter[13].CLK
+clk_fpga => counter[14].CLK
+clk_fpga => counter[15].CLK
+clk_fpga => out_key~reg0.CLK
+clk_fpga => intermediate.CLK
+rst_debouncer => counter[0].ACLR
+rst_debouncer => counter[1].ACLR
+rst_debouncer => counter[2].ACLR
+rst_debouncer => counter[3].ACLR
+rst_debouncer => counter[4].ACLR
+rst_debouncer => counter[5].ACLR
+rst_debouncer => counter[6].ACLR
+rst_debouncer => counter[7].ACLR
+rst_debouncer => counter[8].ACLR
+rst_debouncer => counter[9].ACLR
+rst_debouncer => counter[10].ACLR
+rst_debouncer => counter[11].ACLR
+rst_debouncer => counter[12].ACLR
+rst_debouncer => counter[13].ACLR
+rst_debouncer => counter[14].ACLR
+rst_debouncer => counter[15].ACLR
+rst_debouncer => out_key~reg0.ALOAD
+rst_debouncer => intermediate.ALOAD
+input_key => always0.IN1
+input_key => out_key~reg0.ADATA
+input_key => intermediate.ADATA
+input_key => intermediate.DATAIN
+out_key <= out_key~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rascunho|display:inst7
+o[0] <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+o[1] <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+o[2] <= inst20.DB_MAX_OUTPUT_PORT_TYPE
+o[3] <= inst51.DB_MAX_OUTPUT_PORT_TYPE
+o[4] <= inst31.DB_MAX_OUTPUT_PORT_TYPE
+o[5] <= inst53.DB_MAX_OUTPUT_PORT_TYPE
+o[6] <= inst44.DB_MAX_OUTPUT_PORT_TYPE
+b[0] => inst49.IN0
+b[1] => inst25.IN0
+b[2] => inst6.IN0
+b[3] => inst1.IN0
+
+

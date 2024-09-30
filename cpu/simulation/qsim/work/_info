@@ -1,0 +1,136 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/15481857/Desktop/cpu/simulation/qsim
+vcontador
+Z1 !s110 1726783659
+!i10b 1
+!s100 EbY]_7GAgIR18X2Q4gjL71
+Ii6Yggm2h_Q]b^g56`7ng02
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1726783658
+Z3 8cpu.vo
+Z4 Fcpu.vo
+Z5 L0 32
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1726783659.000000
+Z8 !s107 cpu.vo|
+Z9 !s90 -work|work|cpu.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vcontador_vlg_vec_tst
+R1
+!i10b 1
+!s100 G72mQSZSb>lMdeUzfUm_P0
+IQEzXgDH[9BYNV7;H>Ja;?3
+R2
+R0
+w1726783657
+Z12 8Waveform1.vwf.vt
+Z13 FWaveform1.vwf.vt
+Z14 L0 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform1.vwf.vt|
+Z15 !s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R10
+R11
+vrascunho
+Z16 !s110 1726783519
+!i10b 1
+!s100 h^Gj1;h3HaWSE9RlmKjKV1
+I9:?[Sc9UL]YU?4YDTF3;R3
+R2
+R0
+w1726783518
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z17 !s108 1726783519.000000
+R8
+R9
+!i113 1
+R10
+R11
+vrascunho_vlg_vec_tst
+R16
+!i10b 1
+!s100 @iL1V2cJ:V2DZAIW[e1i;1
+I6_mZUFK7J>Pe1Q4EI8aFm2
+R2
+R0
+w1726783517
+R12
+R13
+R14
+R6
+r1
+!s85 0
+31
+R17
+!s107 Waveform1.vwf.vt|
+R15
+!i113 1
+R10
+R11
+vregistrador
+Z18 !s110 1726779767
+!i10b 1
+!s100 V0=U=eRBH5F;PK]TV0R;d0
+IJYTBz9Gb@TjBkUL0LI@l[0
+R2
+R0
+w1726779766
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z19 !s108 1726779767.000000
+R8
+R9
+!i113 1
+R10
+R11
+vregistrador_vlg_vec_tst
+R18
+!i10b 1
+!s100 inGF94kHfQddzIW`@IW:z3
+ISnfhNJWdA9DR_WQQS6aKJ2
+R2
+R0
+w1726779765
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+R14
+R6
+r1
+!s85 0
+31
+R19
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
