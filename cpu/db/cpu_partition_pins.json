@@ -60,7 +60,155 @@
 					"strict" : false
 				},
 				{
-					"name" : "reseta",
+					"name" : "c[6]",
+					"strict" : false
+				},
+				{
+					"name" : "c[5]",
+					"strict" : false
+				},
+				{
+					"name" : "c[4]",
+					"strict" : false
+				},
+				{
+					"name" : "c[3]",
+					"strict" : false
+				},
+				{
+					"name" : "c[2]",
+					"strict" : false
+				},
+				{
+					"name" : "c[1]",
+					"strict" : false
+				},
+				{
+					"name" : "c[0]",
+					"strict" : false
+				},
+				{
+					"name" : "d[6]",
+					"strict" : false
+				},
+				{
+					"name" : "d[5]",
+					"strict" : false
+				},
+				{
+					"name" : "d[4]",
+					"strict" : false
+				},
+				{
+					"name" : "d[3]",
+					"strict" : false
+				},
+				{
+					"name" : "d[2]",
+					"strict" : false
+				},
+				{
+					"name" : "d[1]",
+					"strict" : false
+				},
+				{
+					"name" : "d[0]",
+					"strict" : false
+				},
+				{
+					"name" : "l[7]",
+					"strict" : false
+				},
+				{
+					"name" : "l[6]",
+					"strict" : false
+				},
+				{
+					"name" : "l[5]",
+					"strict" : false
+				},
+				{
+					"name" : "l[4]",
+					"strict" : false
+				},
+				{
+					"name" : "l[3]",
+					"strict" : false
+				},
+				{
+					"name" : "l[2]",
+					"strict" : false
+				},
+				{
+					"name" : "l[1]",
+					"strict" : false
+				},
+				{
+					"name" : "l[0]",
+					"strict" : false
+				},
+				{
+					"name" : "reg1_out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "reg1_out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "reg1_out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "reg1_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "reg1_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "reg1_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "reg1_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "reg2_out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "reg2_out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "reg2_out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "reg2_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "reg2_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "reg2_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "reg2_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "master_reset",
+					"strict" : false
+				},
+				{
+					"name" : "reset_deb",
 					"strict" : false
 				},
 				{
